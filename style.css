@@ -1,0 +1,105 @@
+header{
+    background-color: firebrick;  /*gfyf*/
+    height: 500px;
+    /* width: 50%; */
+    color: azure;
+    font-size: 30px;
+    text-align: center;
+    background-image: url(https://phonoteka.org/uploads/posts/2022-01/1642667694_1-phonoteka-org-p-fon-voleibol-1.jpg);
+    background-size: cover;
+    background-position: top;
+    background-position-y: -100px ;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: gold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: black 2px 5px 5px;
+}
+h2{text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: goldenrod;
+
+}
+main{
+    height: 100%;
+    color: azure;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: darkblue;
+    height: 100%;
+    color: azure;
+    font-size: 30px;
+    display: flex;
+}
+.left{
+    background-color: orange;
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    background: linear-gradient( to top, rgba(0, 128, 0, 0), blue, rgba(0, 0, 0, 0)); 
+    
+    
+    
+}
+
+
+.right{
+    background-color: indigo;
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    background: radial-gradient(#6803ff, #ff990000);
+    
+}
+.container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    
+    
+}
+
+body{
+    margin: 0;
+    background: radial-gradient(#6803ff, #ff9800);
+
+}
+
+.f_left{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+.f_left img {
+padding: 20px;
+}
+
+.f_right{
+    width: 70%;
+    float:right;
+}
+.f_right img{
+    width: 100px;
+    padding-left: 20px;
+}
+.f_right ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+
+
